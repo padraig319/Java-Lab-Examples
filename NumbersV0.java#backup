@@ -1,0 +1,14 @@
+public class NumbersV0{
+    public static void main (String [] args){
+        
+        //(int)(Math.random() * ((max - min) + 1)) + min
+        int randomNumber = (int)(Math.random() * ((431-179) + 1)) + 179;
+        
+        String sumOfRandomNumber = (randomNumber.charAt(1) + " + " + randomNumber.charAt(2) + " + " + randomNumber.charAt(3));
+        
+        System.out.println ("Random Number = " );
+        
+        
+    }
+}
+  
